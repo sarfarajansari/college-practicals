@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Software Development Company</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+      body {
+        background-color: hsl(0, 0%, 5%);
+        font-family: 'Inter', sans-serif !important;
+      }
+      .link {
+          color: hsl(240, 70%, 50%);
+          text-align: center;
+          font-size: 18px;
+          display:block ;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      h1 {
+        text-align: center;
+        color: hsl(278, 60%, 50%);
+        margin-bottom: 8rem;
+        line-height: 60px;
+        background-color: hsl(0, 0%, 7%);
+      }
+
+      .info-grid ,.callOfAction{
+        margin: 10px;
+        font-size: 14px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 15px;
+        max-width: 1245px;
+        margin: 0 auto;
+      }
+
+      .callOfAction{
+          margin-top: 40px;
+          display:block;
+      }
+
+
+      .info-grid > div ,.callOfAction{
+        color: hsl(208, 90%, 90%);
+        background-color: hsl(0, 0%, 7%);
+        min-height: 10vh;
+        border-radius: 10px;
+        padding: 5px 10px;
+
+        box-shadow: -5px -5px hsl(0, 0%, 10%);
+      }
+      .info-grid > div > div {
+        padding: 0 8px;
+      }
+
+      .title {
+        font-size: large;
+        color: hsl(0, 80%, 50%);
+        text-align: center;
+        margin-bottom: 5px;
+        text-decoration: underline hsl(120, 70%, 25%);
+      }
+      .title2{
+          margin-top: 1rem;
+          text-align: left;
+          text-decoration: none;
+          color: hsl(120, 70%, 25%);
+      }
+      .title3{
+          margin-top: 1rem;
+          color: hsl(60, 80%, 50%);
+      }
+
+      @media screen and (min-width: 720px) {
+        .info-grid {
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 25px;
+          font-size: 16px;
+        }
+      }
+
+      ul{
+          margin:0 0 10px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Code That Speaks</h1>
+    <div class="info-grid">
+      <div>
+        <p class="title">Who we are?</p>
+        <div>
+          We are a group of 5 developers , developing web application that can
+          help the world in many ways !
+        </div>
+      </div>
+      <div>
+        <p class="title">What we do?</p>
+
+        <div>
+          We are building a Web builder which can create websites for you
+          without coding , yeah you heard it right!
+          <strong>Without Coding!</strong>
+        </div>
+      </div>
+      <div>
+        <p class="title">What do offer?</p>
+        <div>Apart from our web builder , we also create websites for our clients at a very affordable price !</div>
+
+
+        <p class="title title2">Website Features:</p>
+        <ul>
+            <li>Responsive</li>
+            <li>Dynamic</li>
+            <li>Secured</li>
+            <li>High performance</li>
+            <li>Easy to use</li>
+
+        </ul>
+      </div>
+      <div>
+        <p class="title">Our Stack?</p>
+        <div>We are using MERN stack : Mongo DB , Express Js , Node js and React Js</div>
+      </div>
+    </div>
+    <div class="callOfAction">
+        <p class="title title3">So What are you waiting for? <strong class="title"> Contact Us</strong></p>
+
+       <a href="mailto:codethatspeaks.web@gmail.com" class="link">codethatspeaks.web@gmail.com</a>
+    </div>
+  </body>
+</html>
